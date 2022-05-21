@@ -18,7 +18,9 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
 
-        body: Center(child: Image.asset("assets/images/diamond.png")),
+        body: Center(
+            child: Image.asset("assets/images/diamond.png")
+        ),
         drawer: Drawer(backgroundColor: Colors.blueGrey[900],),
       ),
     );
